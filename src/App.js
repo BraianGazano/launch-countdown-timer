@@ -1,12 +1,14 @@
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-
+import CountDownTimer from "./components/Timer/CountDownTimer";
 function App() {
+  const daysHoursMinSecs = {days:99, hours:23, minutes: 59, seconds: 59}
   return (
-    <div className="App">
+    <>
       <Header></Header>
+      <CountDownTimer daysHoursMinSecs={daysHoursMinSecs}></CountDownTimer>
       <Footer></Footer>
-    </div>
+    </>
   );
 }
 
