@@ -4,13 +4,14 @@ export const TimerStyled = styled.div`
     display:flex;
     justify-content:center;
     padding: 5em;
+    width: 100%;
     align-items: center;
     & p{
         border-radius: 20px;
         box-shadow: 0 0.5rem 1px hsl(234, 17%, 12%);
-        font-size: 5rem;
+        font-size: 6rem;
         background: linear-gradient(180deg, hsl(236, 21%, 22%) 50%, hsl(236, 21%, 26%) 50%);
-        padding: 0.6em;
+        padding: 0.5em;
         margin:1.5rem;
         color: hsl(345, 95%, 68%);
     }
@@ -21,5 +22,5 @@ export const TimerStyled = styled.div`
         font-size: 1.3em;
         display:flex;
         justify-content:space-around;
-    } 
+    }
 `;    
