@@ -28,8 +28,27 @@ const CountDownTimer = ({daysHoursMinSecs}) => {
 
     
     return (
-        <>
-            <p>{`${dys.toString().padStart(2,'0')} ${hrs.toString().padStart(2, '0')} ${mins.toString().padStart(2, '0')} ${secs.toString().padStart(2, '0')}`}</p> 
+        <>  
+            <div>
+            <p>{`${dys.toString().padStart(2,'0')}`}</p>
+            <span>Days</span>
+            </div>
+            <div>
+            <p>{`${hrs.toString().padStart(2, '0')}`}</p>
+            <span>Hours</span>
+
+            </div>
+            <div>
+            <p>{`${mins.toString().padStart(2, '0')}`}</p>
+            <span>Minutes</span>
+
+            </div>
+            <div>
+            <p>{`${secs.toString().padStart(2, '0')}`}</p>
+            <span>Seconds</span>
+
+            </div>
+   
         </>
     );
 }
